@@ -9,6 +9,80 @@
 </head>
 
 <body>
+    <main>
+        <header id="header" class="fixed-header">
+            <img id="header-img"
+                src="https://cdn.pixabay.com/photo/2012/04/28/19/14/recycle-44111_1280.png"
+                alt="Recycle, Recycling - image by Clker-Free-Vector-Images Pixabay" />
+            <nav id="nav-bar">
+                <a class="nav-link" href="#features-and-benefits">Features and Benefits</a>
+                <a class="nav-link" href="#value">Value</a>
+                <a class="nav-link" href="#how-it-works">How It Works</a>
+            </nav>
+        </header>
+
+        <section id="content">
+            <h1>EcoBottle Landing Page</h1>
+            <hr>
+            <blockquote>Stay Hydrated, Stay Eco-Friendly</blockquote>
+            <hr>
+            <div class="content-container">
+                <p class="intro">
+                    EcoBottle is designed to keep your drinks cold for 24 hours and hot for 12 hours.
+                    Made from sustainable materials, it’s the perfect companion for your active lifestyle.
+                </p>
+                <p id="call-to-action">Get Yours Now!</p>
+                <button class="buy-now-button">Buy Now!</button>
+            </div>
+
+            <div class="description">
+                <h2 id="features-and-benefits" class="chapter">Features and Benefits</h2>
+                <ul>
+                    <li>
+                        <span class="features">Superior Insulation:</span>
+                        <span class="benefits"> Keeps drinks cold for 24 hours and hot for 12 hours.</span>
+                    </li>
+                    <li>
+                        <span class="features">Eco-Friendly Materials:</span>
+                        <span class="benefits"> Made from 100% recycled stainless steel.</span>
+                    </li>
+                    <li>
+                        <span class="features">Durable Design:</span>
+                        <span class="benefits"> Built to withstand drops and everyday wear and tear.</span>
+                    </li>
+                    <li>
+                        <span class="features">Leak-Proof Cap:</span>
+                        <span class="benefits"> No spills, no mess.</span>
+                    </li>
+                    <li>
+                        <span class="features">Variety of Colors:</span>
+                        <span class="benefits"> Choose from a range of stylish colors to match your personality.</span>
+                    </li>
+                </ul>
+                <h2 id="value" class="chapter">Value</h2>
+                <p>
+                    EcoBottle is designed to keep your drinks cold for 24 hours and hot for 12 hours.
+                    Made from sustainable materials, it’s the perfect companion for your active lifestyle.
+                </p>
+                <h2 id="how-it-works" class="chapter">How It Works</h2>
+                <p>A brief video with the fresh water in the EcoBottle.</p>
+            </div>
+            <div id="videoM">
+                <video id="video" src="https://cdn.pixabay.com/video/2022/10/04/133507-756991150_large.mp4"
+                    alt="Pixabay Cup Bottle" width="650" height="375" autoplay>
+            </div>
+            <form action="https://www.freecodecamp.org/email-submit" id="form" method="post">
+                <fieldset>
+                    <legend>Join our community and stay updated with the latest news and offers</legend>
+                    <label for="email">Enter your e-mail:
+                        <input id="email" type="email" required name="email" placeholder="maryjohn@abc.com"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+                    </label>
+                </fieldset>
+                <input type="submit" id="submit" value="Submit" />
+            </form>
+        </section>
+    </main>
 </body>
 
 </html>
